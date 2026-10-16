@@ -1,4 +1,4 @@
-**Quiz Project in Java named QuizWhiz**
+## Quiz Project in Java named QuizWhiz
 
 I implemented a quiz project in Java's Eclipse IDE that implements different classes and objects to present the user with different quizzes. Thus, this project was 
 implemented using **Object-Oriented Programming (OOP)**
@@ -12,25 +12,25 @@ The following are the implemented classes:
   - **Quiz.java** - Contains methods that are inherited by **GeneralQuiz**, **MathQuiz**, and **ComputerScienceQuiz** classes.
 
 ## Implementation
- - Now, this project makes use of OOP to implement these different quizzes.
- - **Encapsulation** and **inheritance** were used in the implementation process. Progress variables (attributes) *numberOfQuestions* and *score* were used to keep track of all the questions answered and the score of each question answered correctly, respectively.
- - These variables are initially set to zero at the beginning of the quiz. 
- - For each question answered, *numberOfQuestions* is incremented by one and, for each questions answered correctly, *score* is incremented by one. 
- - These variables are used to calculate the score of the user at the end of the quiz, that is, when all the questions are answered.
- - I also made use of methods to implement the quiz questions, to calculate the score, and to reset the progress variables to zero should the user decide to re-take the quiz.
+- Now, this project makes use of OOP to implement these different quizzes.
+- **Encapsulation** and **inheritance** were used in the implementation process. Progress variables (attributes) *numberOfQuestions* and *score* were used to keep track of all the questions answered and the score of each question answered correctly, respectively.
+- These variables are initially set to zero at the beginning of the quiz. 
+- For each question answered, *numberOfQuestions* is incremented by one and, for each questions answered correctly, *score* is incremented by one. 
+- These variables are used to calculate the score of the user at the end of the quiz, that is, when all the questions are answered.
+- I also made use of methods to implement the quiz questions, to calculate the score, and to reset the progress variables to zero should the user decide to re-take the quiz.
 
   ## Encapsulation
-    - With encapsulation, the progress variables are kept private so as to disallow a user or anyone from tempering with the score of the quiz.
-    - This was made possible by the *private* access modifier.
-    - By making use of encapsulation, I ensure that all the progress variables are kept hidden from the user and are only accessible within a class in which they are declared.
-    - So, in the main class **(Main.java)** the variables (attributes) are not accessed directly, instead, they are 
+  - With encapsulation, the progress variables are kept private so as to disallow a user or anyone from tempering with the score of the quiz.
+  - This was made possible by the *private* access modifier.
+  - By making use of encapsulation, I ensure that all the progress variables are kept hidden from the user and are only accessible within a class in which they are declared.
+  - So, in the main class **(Main.java)** the variables (attributes) are not accessed directly, instead, they are 
 	  accessed through getter methods.
 
   ## Inheritance
-    - Inheritance ensures that all attributes and methods of one class are accessed by another class.
-    - So, the **GeneralQuiz**, **MathQuiz**, and **ComputerScienceQuiz** classes inherit the **Quiz** class.
-    - This is made possible by the *extends* keyword.
-    - Inheritance was implemented so as to avoid re-writing the same method of code over and over again as this could get tedious and unnecessary.
+  - Inheritance ensures that all attributes and methods of one class are accessed by another class.
+  - So, the **GeneralQuiz**, **MathQuiz**, and **ComputerScienceQuiz** classes inherit the **Quiz** class.
+  - This is made possible by the *extends* keyword.
+  - Inheritance was implemented so as to avoid re-writing the same method of code over and over again as this could get tedious and unnecessary.
 	
 ## How does it Work
   - When run, the user is welcomed to **QuizWhiz.**
