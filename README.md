@@ -3,7 +3,7 @@
 I implemented a quiz project in Java's Eclipse IDE that implements different classes and objects to present the user with different quizzes. Thus, this project was 
 implemented using Object-Oriented Programming (OOP)
 
-**Classes implemented**
+## Classes implemented
 		The following are the implemented classes:
 			**- Main.java** - This is the main class that runs all the other classes. It also creates objects of the different classes.
 			**- GeneralQuiz.java** - This class implements a general quiz that presents the user with general questions they must answer.
