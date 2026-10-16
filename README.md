@@ -1,4 +1,4 @@
-## Quiz Project in Java named QuizWhiz
+## Java Quiz Project named QuizWhiz
 
 I implemented a quiz project in Java's Eclipse IDE that implements different classes and objects to present the user with different quizzes. Thus, this project was 
 implemented using **Object-Oriented Programming (OOP)**
@@ -33,15 +33,25 @@ The following are the implemented classes:
   - Inheritance was implemented so as to avoid re-writing the same method of code over and over again as this could get tedious and unnecessary.
 	
 ## How does it Work
-  - When run, the user is welcomed to **QuizWhiz.**
-  - They are to press enter to continue.
-  - **General quiz**, **math quiz**, and **Computer science quiz** are presented to them as options.
-  - They are prompted to type in the quiz type they would like to take (e.g. General). Cases are ignored.
-  - Once the quiz is completely taken, they are able to view their score together with the corresponding percentage.
-  - They are then prompted whether they would like to re-take or exit the quiz.
+- When run, the user is welcomed to **QuizWhiz.**
+- They are to press enter to continue.
+- **General quiz**, **math quiz**, and **Computer science quiz** are presented to them as options.
+- They are prompted to type in the quiz type they would like to take (e.g. General). Cases are ignored.
+- Once the quiz is completely taken, they are able to view their score together with the corresponding percentage.
+- They are then prompted whether they would like to re-take or exit the quiz.
 
 ## Requirements to run the project
-  - In order for users to run the project, they need a **Java Runtime Environment (JRE)** installed on their machine
-     which can be downloaded from Oracle's official website (oracle.com).
+The following are requirements to run the project (for both developers and standard users).
+
+  ## For other developers
+  - Developers, especially Java, need to have a Java IDE  (like **Eclipse**, **IntelliJ**, **Netbeans**, or **Visual Studio Code**)
+    installed in their machines to run this project.
+  - This is because the Java IDEs have a Java Runtime Environment, which is needed to run Java projects.
+  - They just need to pull the project and run the source code run on their machines.
+  - Alternatively, they can run the runnable JAR file which will be shared to them.
+
+  ## For standard end users
+  - In order for users to run the project, they need a **Java Runtime Environment (JRE)** installed on their machine,
+    which can be downloaded from Oracle's official website (oracle.com). They don't to install an Integrated Development Environment (IDE).
   - A **runnable JAR file** will be shared to them so they are able run the project, provided they have a JRE installed.
   - It is worth noting that Java projects are designed to run on desktop environments like laptops, not mobile devices.
