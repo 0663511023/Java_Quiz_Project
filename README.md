@@ -33,8 +33,8 @@ implemented using Object-Oriented Programming (OOP)
 		* They are to press enter to continue.
 		* *General quiz*, *math quiz*, and *Computer science quiz* are presented to them as options.
 		* They are prompted to type in the quiz type they would like to take (e.g. General). Cases are ignored.
-    * Once the quiz is completely taken, they are able to view their score together with the corresponding percentage.
-    * They are then prompted whether they would like to re-take or exit the quiz.
+   		* Once the quiz is completely taken, they are able to view their score together with the corresponding percentage.
+    	* They are then prompted whether they would like to re-take or exit the quiz.
 
 **Requirements to run the project**
   * In order for users to run the project, they need a **Java Runtime Environment (JRE)** installed on their machine
